@@ -5,12 +5,12 @@ const routes = require("./route/pages")
 
 
 const path = require("path")
-const Port =  process.env.PORT || 5500
+const Port =  process.env.PORT || 5000
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.set("view engine", "ejs")
-app.set("views", "./views");
+app.set("views", "index");
 app.use('*/css',express.static('public/css'));
 app.use("/", routes);
 
