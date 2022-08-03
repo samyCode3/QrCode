@@ -1,0 +1,81 @@
+.main-container 
+{
+    width: 100%;
+}
+.main-container .qrcode 
+{
+    padding: 0.2rem 5%;
+   
+}
+.qrcode h1 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.textarea  
+{
+    width: 100%;
+}
+.textarea textarea 
+{
+    width: 100%;
+    padding: 1rem 1rem;
+}
+button 
+{
+    margin-top: 1vh;
+    height: 2rem;
+    background-color: rgba(105, 105, 234, 0.875);
+    border: none;
+    border-radius: 5px;
+    padding: 0 1rem;
+    color: white;
+}
+
+.img-code 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+
+}
+.code  img 
+{
+    width: 100%;
+    height: 100%;
+}
+.code p 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.code .btn 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 20%;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(105, 105, 234, 0.875);
+    padding: 0.8rem 2rem ;
+    border-radius: 5px;
+    
+}
+@media screen and (max-width: 1200px) 
+{
+    .textarea textarea 
+{
+    width: 98%;
+    
+}
+.main-container 
+{
+    
+   overflow: hidden;
+}
+}
